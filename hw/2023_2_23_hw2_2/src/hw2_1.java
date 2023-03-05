@@ -15,7 +15,7 @@ public class hw2_1{
 		int a = sc.nextInt();
         System.out.println("second int number");
 		int b = sc.nextInt();
-        System.out.printf("%d + %d = %d",a,b,a * b);
+        System.out.printf("%d * %d = %d",a,b,a * b);
 		sc.close();
     }
     public static void main (String args[ ]){
