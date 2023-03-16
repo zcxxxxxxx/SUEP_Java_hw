@@ -80,7 +80,5 @@ public class App {
         System.out.println(hw1(-1)); 
         System.out.println(hw2_1());
         System.out.println(hw2_2());
-
-
     }
 }
