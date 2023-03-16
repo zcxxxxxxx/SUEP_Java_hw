@@ -74,11 +74,24 @@ public class App {
         }
         return sum;
     }
+
+
+    public static long hw2_3(){
+        long sum = 0;
+        long eight = 8;
+        for(int i = 0;i < 10;i++){
+            sum = sum + eight;
+            eight = eight * 10 + 8;
+        }
+        return sum;
+    }
+
     public static void main(String[] args) throws Exception {
         System.out.println(hw1(1)); 
         System.out.println(hw1(0)); 
         System.out.println(hw1(-1)); 
         System.out.println(hw2_1());
         System.out.println(hw2_2());
+        System.out.println(hw2_3());
     }
 }
