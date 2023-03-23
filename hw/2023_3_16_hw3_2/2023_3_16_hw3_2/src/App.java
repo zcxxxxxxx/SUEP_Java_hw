@@ -1,6 +1,5 @@
 import java.lang.Math;
 
-
 public class App {
 
     public static void q6(){
@@ -87,7 +86,7 @@ public class App {
     public static long hw5(){
         long sum = 0;
         for(int i = 100;i < 200;i++){
-            sum = sum + jiecheng2(i);
+            sum = sum + jiecheng(i);
         }
         return sum;
     }
