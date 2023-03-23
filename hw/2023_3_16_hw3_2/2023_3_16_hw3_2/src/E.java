@@ -1,8 +1,4 @@
-public class E {
-    public static void main(){
-
-
-    }
+class E {
     public static void Q11(){
         int x = 1, y = 6;
         while(y-- > 0){
