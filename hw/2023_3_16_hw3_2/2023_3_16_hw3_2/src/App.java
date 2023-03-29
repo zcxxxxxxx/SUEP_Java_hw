@@ -24,7 +24,7 @@ public class App {
     }
 
     public static void q8(){
-        for (int i = 2; i <= 4; i++){
+        for (int i = 1; i <= 4; i++){
             switch(i){
                 case 1:System.out.printf("%c", 'a');
                 case 2:System.out.printf("%c", 'b');break;
@@ -32,10 +32,11 @@ public class App {
                 case 4:System.out.printf("%c", 'd');break;
             }
         }
+        System.out.println();
     }
 
     public static void q9(){
-        char[] a = {'a','b','c','d','d','e'};
+        char[] a = {'a','b','c','d','e'};
         for (int i = 0; i < a.length / 2; i++){
             char c = a[i];
             a[i] = a[a.length - (i + 1)];
