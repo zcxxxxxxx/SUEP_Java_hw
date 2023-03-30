@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-    class QuadraticEquation {
+class QuadraticEquation {
    public void calculate() {
       Scanner input = new Scanner(System.in);
 

@@ -1,5 +1,6 @@
+
 public class App {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args){
         SUM q1_1 = new SUM(1, 1, 100, 0);
         System.out.println(q1_1.sum()); 
         SUM q1_2 = new SUM(1, 2, 10, 1);
