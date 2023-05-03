@@ -1,5 +1,5 @@
 import java.util.Scanner;
-// import java.util.InputMismatchException;
+import java.util.InputMismatchException;
 
 public class Q2 {
     public static void q2() {
@@ -10,7 +10,9 @@ public class Q2 {
                 throw new Exception("录入整数过大，请重新输入一个整数");
             } else if (num < 0) {
                 throw new Exception("录入整数过小，请重新输入一个整数");
-            }    
+            }
+        } catch (InputMismatchException e1) {
+            System.out.println("录入的是字符，请输入一个整数");
         } catch (Exception e) {
             System.out.println(e.getMessage());
             scanner.close();

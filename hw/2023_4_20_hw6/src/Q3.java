@@ -4,13 +4,13 @@ interface ShapePara {
     int getCircumference(); // 获取形状的周长
 }
 
-class Circle implements ShapePara {
+class Circle1 implements ShapePara {
     public double radius; // 圆的半径
     private double x; // 圆心的x坐标
     protected double y; // 圆心的y坐标
 
     // 以半径为参数，圆心在(0,0)的构造函数
-    Circle(double radius) {
+    Circle1(double radius) {
         this.radius = radius;
         this.x = 0;
         this.y = 0;

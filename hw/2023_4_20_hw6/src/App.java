@@ -26,13 +26,14 @@ public class App {
 
         for (int i = 0; i < 5; i++) {
             Stiger[i] = new SouthEastTiger();
-            System.out.println("第" + (i + 1) + "个SouthEastTiger有" + Stiger[i].getLegs() + "条腿");
+            System.out.println("第" + (i + 1) + "个SouthEastTiger有" + Stiger[i].getLegs() +
+                    "条腿");
         }
         System.out.println("总共" + SouthEastTiger.getCount() + "个SouthEastTiger");
         System.out.println("总共" + tiger.getCount() + "个tiger");
 
         /* Q3 */
-        Circle c = new Circle(5);
+        Circle1 c = new Circle1(5);
         System.out.println("半径: " + c.getRadius());
         System.out.println("面积: " + c.getArea());
         System.out.println("周长: " + c.getCircumference());
@@ -41,7 +42,6 @@ public class App {
         System.out.println("半径: " + c.getRadius());
         System.out.println("面积: " + c.getArea());
         System.out.println("周长: " + c.getCircumference());
-
 
     }
 }
