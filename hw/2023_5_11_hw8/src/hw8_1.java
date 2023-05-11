@@ -3,17 +3,17 @@ import java.awt.FlowLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class login {
+public class hw8_1 {
     public static void main(String[] args) {
-        new Login1();
+        new Login();
 
     }
 }
 
-class Login1 {
+class Login {
     private JFrame frame = new JFrame("用户注册界面");
 
-    Login1() {
+    Login() {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);// 设置关闭按钮
         frame.setLayout(new FlowLayout(BoxLayout.Y_AXIS));// 设置布局方式
 
@@ -64,9 +64,5 @@ class Login1 {
 
         frame.setSize(250, 200);
         frame.setVisible(true);
-    }
-
-    private void change_title_name(String name) {
-        frame.setTitle(name);
     }
 }
